@@ -53,14 +53,17 @@ button {
   padding: 0.8rem 2.6rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  background: #191919;
-  color: white;
+  background: #F7CCAC;
+  color: #3A3845;
   font-weight: 500;
-  border-radius: 50px;
+  border-radius: 20px 5px 20px 5px;
   transition: .3s all ease-out;
   font-size: 1rem;
 }
 
 button:hover {
-background: #393838;
+background: #3A3845;
+color: #fff;
+border-color: #3A3845;
+border-radius: 5px 20px 5px 20px;
 }

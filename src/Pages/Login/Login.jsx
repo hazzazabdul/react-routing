@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import Style from "./Login.module.css";
 
 function Login() {
@@ -26,9 +26,7 @@ function Login() {
           required
           placeholder="Password"
         />
-        <Link to={'/'}>
         <button className={Style.login__btn}>Log In</button>
-        </Link>
       </form>
     </div>
     </div>

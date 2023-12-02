@@ -22,10 +22,9 @@ const NavBar = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/user">User</Link>
           </li>
-
-          <Link to={"/login"}>
+          <Link to="/login">
             <button className={Style.login}>Log In</button>
           </Link>
         </ul>

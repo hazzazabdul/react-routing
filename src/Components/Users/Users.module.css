@@ -1,0 +1,56 @@
+.users {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.userCard {
+    background: #fff;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.imageWraper {
+    text-align: center;
+    padding: 20px;
+}
+.userCard img {
+    width: 200px;
+    height: 230px;
+}
+.cardBody {
+    background: #F7CCAC;
+    color: #3A3845;
+    padding: 20px;
+    border-radius: 0 0 12px 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cardBody button {
+    padding: 12px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    background: transparent;
+    color: #3A3845;
+    border: 2px solid #3A3845;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.cardBody button:hover {
+    background: #3A3845;
+    color: #F7CCAC;
+}
+.cardBody h3,
+.cardBody p {
+    margin-bottom: 10px;
+}
+.cardBody span {
+    font-weight: bolder;
+}
+
+.user__heading {
+    text-align: center;
+    margin-block: 50px;
+}

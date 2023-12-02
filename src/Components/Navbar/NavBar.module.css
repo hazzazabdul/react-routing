@@ -13,7 +13,7 @@
   justify-content: space-between;
   margin: auto;
   padding: 12px 38px;
-  background-color: #290001;
+  background-color: #76BA99;
   color: white;
 }
 
@@ -23,18 +23,25 @@
   gap: 20px;
 }
 
-.navbar ul a {
+.navbar ul li:not(:last-child) {
   font-size: 20px;
+  width: 4.5rem;
   color: white;
   transition: 0.2s all ease-out;
 }
-.navbar ul li a:hover {
+
+a{
+  display: inline-block;
+  color: inherit;
+}
+
+.navbar ul li:hover {
   letter-spacing: 1px;
 }
 
 .login {
   background-color: transparent;
-  border: 1px solid white;
+  border: 2px solid white;
   color: white;
   font-size: 20px;
 }

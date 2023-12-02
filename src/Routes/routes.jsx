@@ -3,9 +3,10 @@ import App from "../App";
 import Login from "../Pages/Login/Login";
 import Contact from "../Pages/Contact/Contact";
 import NotFound from "./../Pages/NotFound/NotFound";
-import Blog from "..//Pages/Blog/Blog";
 import About from "../Pages/About/About";
 import Home from "../Pages/Home/Home";
+import UserData from "../Pages/User/UserData";
+
 
 const routes = createBrowserRouter([
   {
@@ -26,8 +27,9 @@ const routes = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "/blog",
-        element: <Blog />,
+        path: "/user",
+        element: <UserData />,
+        loader: () =>  fetch('https://jsonplaceholder.typicode.com/users')
       },
     ],
   },

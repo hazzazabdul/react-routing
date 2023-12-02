@@ -27,15 +27,16 @@
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color: #000;
+  color: #3A3845;
+  background-color: #F7CCAC;
   text-align: center;
   cursor: pointer;
   width: 100%;
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: #3A3845;
+  color: #fff;
 }
 
 .row {
