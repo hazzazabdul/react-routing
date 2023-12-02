@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.logo a {
+  color: white;
+  font-family: "Pacifico", cursive;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 12px 38px;
+  background-color: #290001;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar ul a {
+  font-size: 20px;
+  color: white;
+  transition: 0.2s all ease-out;
+}
+.navbar ul li a:hover {
+  letter-spacing: 1px;
+}
+
+.login  {
+  background-color: transparent;
+}
+
+.login a {
+  color: white;
+  font-size: 20px;
+}
+
+.login a:hover {
+  background-color: transparent;
+  color: white;
+}

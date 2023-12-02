@@ -1,0 +1,14 @@
+.blog__data {
+    padding: 5rem 2.5rem;
+}
+
+.blog__data h1 {
+    text-align: center;
+}
+
+.blog__container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+}
