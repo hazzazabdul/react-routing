@@ -46,9 +46,7 @@
   transition: 0.3s all ease;
   border-radius: 50px;
   cursor: pointer;
-}
-
-.hero__content a {
+  animation:1s moveRound;
   color: white;
   font-size: 16px;
 }
@@ -57,5 +55,5 @@
   background-color: #2a2835;
   border: 2px solid #3a3845;
   box-shadow: 0 0 12px 0 #f7ccac;
-  transform: translateY(-3px);
 }
+

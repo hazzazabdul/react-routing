@@ -7,10 +7,11 @@ const Home = () => {
       <div className={Style.hero}>
         <div className={Style.hero__content}>
           <p>Wellcome</p>
-          <h2>I'm a Developer.</h2>
-          <button>
-            <Link to={"/contact"}>Contact Me</Link>
-          </button>
+          <h2>I'm Hazzaz.</h2>
+          <Link to={"/contact"}>
+            <button>Contact Me</button>
+          </Link>
+
         </div>
       </div>
     </>

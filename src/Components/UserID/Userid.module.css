@@ -1,0 +1,57 @@
+.userDetails {
+  background: #fff;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  min-height: 72.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.userDetailsContainer {
+  max-width: 840px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 38% 62%;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  animation: 1s moveFromLeft ease-out;
+}
+
+.userDetails .userImg {
+  flex-basis: 50%;
+}
+
+.userDetails img {
+  width: 200px;
+  height: 200px;
+}
+.userDetailsContainer h2,
+.userDetailsContainer p {
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+.userDetailsContainer span {
+  font-weight: bolder;
+}
+
+.user__details {
+  border-left: 2px solid #8a8a8a;
+  padding-left: 10px;
+}
+
+@keyframes moveFromLeft {
+  0% {
+    transform: translateX(-20rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
