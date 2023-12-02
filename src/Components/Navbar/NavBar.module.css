@@ -32,16 +32,11 @@
   letter-spacing: 1px;
 }
 
-.login  {
+.login {
   background-color: transparent;
-}
-
-.login a {
+  border: 1px solid white;
   color: white;
   font-size: 20px;
 }
 
-.login a:hover {
-  background-color: transparent;
-  color: white;
-}
+

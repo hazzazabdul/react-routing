@@ -6,7 +6,7 @@ const NavBar = () => {
     <div className={Style.header}>
       <div className={Style.image}>
         <h1 className={Style.logo}>
-          <Link to={'  '}>Rounting</Link>
+          <Link to={"  "}>Rounting</Link>
         </h1>
       </div>
 
@@ -24,15 +24,12 @@ const NavBar = () => {
           <li>
             <Link to="/blog">Blog</Link>
           </li>
-          <button className={Style.login}>
-            <Link to={'/login'}>
-            Log In
-            </Link>
-          </button>
+
+          <Link to={"/login"}>
+            <button className={Style.login}>Log In</button>
+          </Link>
         </ul>
       </nav>
-
-      
     </div>
   );
 };
