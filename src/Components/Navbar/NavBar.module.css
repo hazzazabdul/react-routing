@@ -25,7 +25,6 @@
 
 .navbar ul li:not(:last-child) {
   font-size: 20px;
-  width: 4.5rem;
   color: white;
   transition: 0.2s all ease-out;
 }
